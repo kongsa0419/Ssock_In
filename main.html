@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ssok-In:대중교통 혼잡도 검색</title>
+</head>
+<body>
+    <head>위치기반 대중교통 혼잡도 검색하기!</head>
+    <li>Full 도로명 주소를 입력해주세요.</li>
+    <li>곧, 도로명주소가 아닌 역과 정류장이름만으로도 검색 가능하도록 고도화 예정입니다.</li>
+    <hr>
+<!-- form 태그 action은 추후 설정해줘야함. 현재는 뼈대만 작성해 둠. -->
+    <form action="/examples/media/action_target.php" method="get">
+		시작점 : <input type="text" name="src_name"><br>
+        도착점 : <input type="text" name="dst_name"><br>
+        <input type="submit">
+	</form>
+</body>
+</html>
